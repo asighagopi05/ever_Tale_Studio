@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EverTale Studio – Stories. Ours. Yours.</title>
+  <meta name="description" content="EverTale Studio is a small student-run creative business making bookmarks, book keychains, stickers, posters, photo prints and personalised designs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#collection">Skip to collection</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="EverTale Studio home">EverTale <span>Studio</span></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <a href="#story">Our Story</a>
+      <a href="#collection">Collection</a>
+      <a href="#custom">Custom</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="orbit orbit-1" aria-hidden="true"></div>
+      <div class="orbit orbit-2" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <img class="hero-logo" src="images/logo.jpg" alt="EverTale Studio logo: an open book beneath a script letter E inside a starry orbit">
+      <h1>Little Things. <em>Endless Stories.</em></h1>
+      <p>From bookish treasures to personalised little keepsakes, find something that feels like you.</p>
+      <a class="btn" href="#collection">Explore Our Collection</a>
+    </section>
+
+    <section id="story" class="section narrow reveal">
+      <h2>A Little World of Thoughts and Things</h2>
+      <p>EverTale Studio is a small, student-run creative business built around the things we love: stories, creativity, and meaningful little things. We create bookmarks, book keychains, stickers, photo prints, posters, and personalised designs that let people express their interests in their own way.</p>
+      <p>Every creation begins with an idea, and we bring those ideas to life through creativity, customisation, and care.</p>
+    </section>
+
+    <section id="collection" class="section">
+      <h2 class="center">Our Collection</h2>
+      <nav class="chips" aria-label="Categories" id="chips"></nav>
+      <div id="categories"></div>
+    </section>
+
+    <section id="custom" class="section reveal">
+      <div class="custom">
+        <figure>
+          <button class="zoom" data-src="images/custom-sticker-poster.jpg" data-alt="Poster showing a photo turned into a cute illustrated sticker, with custom sticker options and prices">
+            <img src="images/custom-sticker-poster.jpg" alt="Poster showing a photo turned into a cute illustrated sticker, with custom sticker options and prices" loading="lazy">
+          </button>
+        </figure>
+        <div>
+          <h2>Dream It. We'll Create It.</h2>
+          <p>Have a design in mind? Tell us what you're imagining, and let's make something personal.</p>
+          <p class="muted">We can turn favourite characters, books and fandoms, your own photos, or cute themes into custom stickers and more. Custom designs are priced once we know what you have in mind. Get in touch using the details below.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section">
+      <h2 class="center">The People Behind EverTale</h2>
+      <div class="team" id="team-grid"></div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="foot-grid">
+      <div>
+        <p class="brand">EverTale <span>Studio</span></p>
+        <p class="muted tagline">Stories. Ours. Yours.</p>
+      </div>
+      <div>
+        <h3>Quick links</h3>
+        <a href="#story">Our Story</a><a href="#collection">Collection</a><a href="#custom">Custom</a><a href="#team">Team</a>
+      </div>
+      <div>
+        <h3>Categories</h3>
+        <div id="foot-cats"></div>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p class="muted">Email: <em>to be added</em></p>
+        <p class="muted">Phone: <em>to be added</em></p>
+        <p class="muted">Instagram: <em>to be added</em></p>
+      </div>
+    </div>
+    <p class="copy">© <span id="year"></span> EverTale Studio. All rights reserved.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged photo" hidden>
+    <button class="close" aria-label="Close">×</button>
+    <img alt="">
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
