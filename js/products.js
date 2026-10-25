@@ -65,7 +65,7 @@ window.CATEGORIES = [
       { name: "Polaroid-style prints", price: "Ask us" },
       { name: "Normal photo prints", price: "Ask us" }
     ],
-    images: [{ src: null, alt: "Photo print photos coming soon" }]
+    images: [{ src: "images/print-service.png", alt: "EverTale Studio printing service poster for MEPCO hostellers: send your documents by email and get your prints the next day" }]
   }
 ];
 
