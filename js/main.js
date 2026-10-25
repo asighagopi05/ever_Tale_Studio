@@ -61,9 +61,8 @@
   const grid = document.getElementById("team-grid");
   window.TEAM.forEach((m) => {
     const card = el("div", "member");
-    card.appendChild(el("div", "avatar", "Photo to be added"));
+    card.appendChild((() => { const a = el("div", "avatar"); const i = el("img"); i.src = m.photo || "images/avatar.svg"; i.alt = "Portrait of " + m.name; i.loading = "lazy"; a.appendChild(i); return a; })());
     card.appendChild(el("h3", "", m.name));
-    card.appendChild(el("p", "", "Role to be added"));
     grid.appendChild(card);
   });
 

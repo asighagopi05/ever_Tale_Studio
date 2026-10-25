@@ -14,6 +14,7 @@ window.CATEGORIES = [
       { src: "images/bookmarks-fairy.jpg", alt: "Four lavender fairy bookmarks with iris flowers, laid out with dried lavender, ink bottles and a quill" },
       { src: "images/bookmarks-anime.jpg", alt: "Four anime bookmarks fanned out on embroidered cloth" },
       { src: "images/bookmarks-faith.jpg", alt: "Two bookmarks with Bible verses, a sunset cross and daisies, with silky tassels" },
+      { src: "images/bookmarks-verses-ad.png", alt: "Four verse bookmarks on kraft paper with dried flowers" },
       { src: "images/bookmarks-verses.jpg", alt: "Four floral bookmarks with verses about love, faith and hope", caption: "Design preview" },
       { src: "images/bookmarks-anime-design.jpg", alt: "Three tall anime bookmark designs: Your Name, Jujutsu Kaisen and Crayon Shin-chan", caption: "Design preview" }
     ]
@@ -54,7 +55,7 @@ window.CATEGORIES = [
       { name: "A4 poster", price: 40 },
       { name: "A5 poster", price: 20 }
     ],
-    images: [{ src: null, alt: "Poster photos coming soon" }]
+    images: [{ src: "images/posters-wall.jpg", alt: "Wall of printed posters and photo prints hung with wooden clips, including a Harry Potter collage and a cricketer portrait" }]
   },
   {
     id: "prints",
@@ -69,9 +70,9 @@ window.CATEGORIES = [
 ];
 
 window.TEAM = [
-  { name: "Bava Vardhini J" },
-  { name: "Giftlin Meribah J S" },
-  { name: "Harshiya" },
-  { name: "Sandhya" },
-  { name: "Priyanka" }
+  { name: "Bava Vardhini J", photo: "images/team-bhava.jpg" },
+  { name: "Giftlin Meribah J S", photo: "images/team-giftlin.jpg" },
+  { name: "Harshiya", photo: "images/team-harshiya.jpg" },
+  { name: "Sandhya", photo: "images/team-sadhiya.jpg" },
+  { name: "Priyanka", photo: "images/team-priyanga.jpg" }
 ];
