@@ -65,7 +65,7 @@ window.CATEGORIES = [
       { name: "Polaroid-style prints", price: "Ask us" },
       { name: "Normal photo prints", price: "Ask us" }
     ],
-    images: [{ src: "images/print-service.png", alt: "EverTale Studio printing service poster for MEPCO hostellers: send your documents by email and get your prints the next day" }]
+    images: [{ src: "images/photoprints-main.png", alt: "Four verse bookmarks on kraft paper with dried flowers and the line Every page holds a memory, every bookmark holds a story" }]
   }
 ];
 
