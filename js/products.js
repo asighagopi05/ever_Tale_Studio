@@ -65,7 +65,7 @@ window.CATEGORIES = [
       { name: "Polaroid-style prints", price: "Ask us" },
       { name: "Normal photo prints", price: "Ask us" }
     ],
-    images: [{ src: "images/photoprints-main.png", alt: "Four verse bookmarks on kraft paper with dried flowers and the line Every page holds a memory, every bookmark holds a story" }]
+    images: [{ src: "images/photoprints-illustration.svg", alt: "Illustration of Polaroid-style prints and a normal photo print held with coloured tape", caption: "Illustration" }]
   }
 ];
 
