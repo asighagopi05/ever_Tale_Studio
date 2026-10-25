@@ -112,3 +112,4 @@ h2{font-size:clamp(2rem,5vw,3rem)}
   .reveal{opacity:1;transform:none}
 }
 .avatar img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.poster{max-width:640px;margin:2rem auto 0}.poster .zoom{display:block;width:100%;padding:0;border:1px solid rgba(185,164,244,.25);border-radius:12px;overflow:hidden;background:none;cursor:zoom-in}.poster img{width:100%;height:auto}
